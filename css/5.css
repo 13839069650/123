@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.meng{
+	width: 1860px;
+	height: 479px;
+}
+input{
+	width: 200px;
+	height: 40px;
+	margin-top:-500px;
+	font-size: 15px;
+}
+ul,li{
+	list-style: none;
+}
+.gao li{
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.gao{
+	margin-left:1000px ;
+	margin-top: -50px;
+}
+.kong{
+	width:50px;
+	height: 50px;
+}
+.kong1{
+	width:50px;
+	height: 25px;
+}
+.yin1{
+	width:50px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left:20px;
+}
+.yin2{
+	width:62px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.wu{
+	margin-left:35px;
+}
+.kong2{
+	width:50px;
+	height: 15px;
+}
+.ai{
+	width: 1430px;
+	height:3200px;
+	margin-left:50px;
+	position: relative;
+	/*border: 2px solid red; 边框*/
+}
+.hai{
+	color:blueviolet;
+}
+.he{
+	margin-left: 3px;
+}
+

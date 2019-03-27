@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.meng{
+	width: 1860px;
+	height: 479px;
+}
+input{
+	width: 200px;
+	height: 40px;
+	margin-top:-500px;
+	font-size: 15px;
+}
+ul,li{
+	list-style: none;
+}
+.gao li{
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.gao{
+	margin-left:1000px ;
+	margin-top: -50px;
+}
+.kong{
+	width:50px;
+	height: 50px;
+}
+.yin1{
+	width:50px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left:20px;
+}
+.yin2{
+	width:62px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.kong2{
+	width:50px;
+	height: 15px;
+}
+.wu{
+	margin-left:44px;
+	margin-top: 20px;
+}
+.ai{
+	width: 1430px;
+	height:2400px;
+	margin-left:62px;
+	position: relative;
+	/*border: 2px solid red; 边框*/ 
+}
+.meng11{
+	width: 170px;
+	height: 74px;
+	margin-bottom: -25px;
+	font-size:20px;
+	margin-left: -2px;
+}
+.hai{
+	color: #DB7093;
+}
+.meng22{
+	margin-left:11px;
+}
+.hai{
+	color: #DB7093;
+}
+.meng222{
+		margin-left:3px;
+}

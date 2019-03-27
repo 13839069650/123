@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="utf-8" />
+		<title>度假屋,民宿,体验,攻略-Airbnb爱彼迎</title>
+		<link href="css/1.css" rel="stylesheet"type="text/css" />
+		<style>
+			#box li{
+				
+				list-style: none;
+				width:240px;
+				height:70px;
+				overflow: hidden;
+				border:none;
+			}
+			
+			#box li:hover img{   
+				   -webkit-transform:scale(1.15);/* Safari 和 Chrome */
+                        -moz-transform:scale(1.15);/*火狐*/
+                        -o-transform:scale(1.15);/*Opera*/
+                        transform:scale(1.15);
+                        -webkit-transition:all 2s ease;/* Safari 和 Chrome */
+                        -moz-transition:all 2s ease;
+                        -o-transition:all 2s ease;
+                        transition:all 2s ease;
+			}
+		</style>
+			 <script type="text/javascript" src="js/顶部.js">
+			 	
+			 </script>
+		</head>
+		<body>
+		<div class="meng">
+		<table>
+		<tr><td ><img src="img/QQ截图20180620154841.png"/></td>
+		<td><input type="text" name="query" placeholder="搜索" value=""></td></tr>
+		</table>
+		<div class="gao">
+			 <nav id="nav">
+			<ul id="n">
+				<li><img src="img/QQ截图20180623100427.png"/><a href="">人民币（￥）</a>
+	  			<dl class="dl" >
+	  				<dt><a href="">美元</a></dt>
+	  				<dt><a href="">英镑</a></dt>
+	  				<dt><a href="">日元</a></dt>
+	  				<dt><a href="">港币</a></dt>
+	  			</dl>
+	  		</li>
+				<li><a href="">手机端</a></li>
+				<li><a href="">发布客源/体验</a></li>
+				<li>故事</li>
+				<li>帮助</li>
+				<li>注册</li>
+                <!--
+                	提示框
+                -->
+				<li ><a href="denglu.html#ge" id="kai">登录</a></li>
+				<script type="text/javascript" src="js/tishi.js"></script>
+			</ul>
+			
+			 </nav>
+		</div>
+		<!-- 导航-->
+		<script>
+	  	var ul=document.getElementById("n");
+	  	var a=ul.getElementsByTagName("a");
+	  	for(var i=0;i<a.length;i++){
+	  		a[i].onmouseover=function(e){
+	  			this.style.backgroundColor="blue";
+	  		    this.style.color="black";
+	  		     var dl=this.nextElementSibling;
+	  		    dl.style.display="block";
+	  		}
+	  		a[i].onmouseout=function(e){
+	  			this.style.backgroundColor="black";
+	  			this.style.color="white";
+	  			 var dl=this.nextElementSibling;
+	  		      dl.style.display="none";
+	  		}
+	  	}
+	    </script>
+		<div  class="kong"></div>
+		<h1 class="xue1">
+			<span class="xue2">Airbnb爱彼迎</span>
+			<div  class="xue3"><b>全球450万民宿任你挑</b></div>
+			<div  class="kong1"></div>
+			<div class="xue4">
+		<ul id="box">
+			<li>
+			  <img src="img/QQ截图20180623104222.png"/>
+		</ul>
+			</div>
+		</h1>
+		</div>
+		<div id="zhong">
+		<input type="text" name="query" placeholder="目的地,城市,住址" value="" class="hu">
+		<a href="sousuo.html"><input type="button" name="query"  value="搜索" class="bus"></a>
+		<div  class="kong2"></div>
+		<h2 >探索爱彼迎</h2>
+		<div  class="kong2"></div>
+		<div class="meng1">
+		<table>
+		<tr>
+		<td><a href="fangyuan.html"><img src="img/QQ截图20180621172828.png"/></td></a>
+		<td style="padding-right: 10px;"><input class="meng11" name="query" placeholder="房源" value=""></td>
+		<td><a href="tiyan.html"><img src="img/QQ截图20180621194027.png"/></td></a>
+		<td style="padding-right: 10px;"><input class="meng11" name="query" placeholder="体验" value=""></td>
+		<td> <a href="canguan.html"><img src="img/QQ截图20180621172934.png"/></td></a>
+		<td><input class="meng11" name="query" placeholder="餐馆" value=""></td>
+		</tr>
+		</table>
+		</div>
+		<div  class="kong3"></div>
+		<h2 >遇到 · 盛夏之旅</h2>
+		<p class="z"><small>在这个阳光盛夏，拥抱旅途上的惊喜</small></p>
+		<div  class="kong3"></div>
+		<table>
+		<tr>
+		<td  style="padding-right: 10px;"><img src="img/QQ截图20180623120150.png"/>
+		<p class="zhao"><smal,l>房源+故事</small></p>
+		<p >带宝贝看世界</p>
+		<p><small>不管是带孩子在济州岛的主题博物馆游览，还<br/>是在花莲的采摘园亲近自然，请放松下来，享<br/>受陪伴的每一刻。</small></p>
+		</td>
+		<td  style="padding-right: 10px;"><img src="img/QQ截图20180623120301.png"/>
+		<p class="zhao2"><small>房源+故事</small></p>
+		<p  >无悔青春畅游</p>
+		<p ><small>哪个城市值得你创造和朋友们的青春旅行记<br/>忆？我们为你推荐了苏梅岛踏浪，上海老城区<br/>漫步和清迈的文艺之旅。</small></p>
+		</td>
+		<td><img src="img/QQ截图20180623120323.png"/>
+		<p class="zhao3"><small>房源+故事</small></p>
+		<p  >专属浪漫回忆</p>
+		<p ><small>不论是去尼泊尔徒步，还是在悉尼冲浪，亦或<br/>是在夏威夷潜水，这些旅行目的地都会是享受<br/>户外阳光的不二之选。</small></p>
+		</tr>
+		</table>
+		<div  class="kong4"></div><br />
+		<hr></hr>
+		<div class="cqq">
+		<form action="#" method="POST"></form>
+		<select name="chin" class="cqq1" style="font-size: 15px;">
+		<option value="">中文（简体）</option>
+		<option value="">Dansk</option>
+    	<option value="">English</option>
+		<option value="">Soumi</option>
+		<option value="">...</option>
+		</select>
+		<form action="#" method="POST"></form><br />
+		<select name="chin" class="cqq1" style="font-size: 15px;">
+		<option value="">CNY人民币</option>
+		<option value="">USD美元</option>
+		<option value="">GPB英镑</option>
+		<option value="">TWD新台币</option>
+		<option value="">...</option>
+		</select>
+		</div>
+		<div class="cqq2">
+			<ul>
+				<li><b>爱彼迎</b></li>
+				<br />
+				<li>工作机会</li>
+				<li>新闻</li>
+				<li>政策</li>
+				<li>帮助</li>
+				<li>多元化和归属感</li>
+			</ul>
+		</div>
+		<div class="cqq3">
+			<ul>
+				<li><b>发现</b></li>
+				<br />
+				<li>信任和安全</li>
+				<li>旅行基金</li>
+				<li>礼品卡</li>
+				<li>爱彼迎公民</li>
+				<li>商务差旅</li>
+				<li>旅行指南</li>
+				<li>爱彼迎杂志</li>
+				<li>活动<img src="img/QQ截图20180623161134.png"/></li>
+			</ul>
+		</div>
+		<div class="cqq4">
+			<ul>
+				<li><b>出租</b></li>
+				<br />
+				<li>为什么要出租</li>
+				<li>待客之道</li>
+				<li>房东义务</li>
+			</ul>
+		</div>
+		<hr class="cqq5"></hr>
+		<div class="cqq6">
+			<table>
+			<tr>
+			<td><img src="img/QQ截图20180623162101.png" class="cqq7"/>© Airbnb, Inc.
+			
+			<img src="img/QQ截图20180623162131.png" class="cqq9"/>
+			<img src="img/QQ截图20180623162143.png" class="cqq10"/>
+			<p class="cqq8">条款&nbsp;隐私政策&nbsp;网站地图</p>
+			</td></tr>
+			</table>
+		</div>
+		</div>
+		<div id="to_top">
+			<p>回到顶部</p>
+     </div>
+	</body>
+</html>

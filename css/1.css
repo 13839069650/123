@@ -1,0 +1,170 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.meng{
+	width: 1860px;
+	height: 479px;
+	/*对图片进行平铺*/
+	background: url(../img/QQ截图20180623102156.png) center no-repeat fixed ;
+	background-size: 100%  100%;
+}
+input{
+	width: 200px;
+	height: 40px;
+	margin-top:-500px;
+}
+ul,li{
+	list-style: none;
+}
+.gao li{
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.gao{
+	margin-left:1000px ;
+	margin-top: -50px;
+}
+.kong{
+	width: 150px;
+	height: 200px;
+}
+.xue2{
+	font-size: 40px;
+	margin-left: 250px;
+	color: red;
+}
+.xue3{
+	font-size: 50px;
+	margin-left: 250px;
+	color: beige;
+}
+.xue4{
+	margin-left: 250px;
+	border-radius: 10px;
+	width: 30px;
+	height: 60px;
+}
+.kong1{
+	width: 20px;
+	height: 10px;
+}
+.hu{
+	width:998px;
+	height: 50px;
+	margin-top: 20px;
+}
+.bus{
+	width: 50px;
+	height: 45px;
+	background-color: red;
+	color: white;
+	position: absolute;
+	top:523px;
+	right: 24px;
+	border-radius: 10px;
+	
+}
+#zhong{
+	width: 1000px;
+	height:1200px;
+	margin: 0  auto;
+	
+	position: relative;
+	
+}
+.kong2{
+	width: 20px;
+	height: 30px;
+}
+.meng11{
+	width: 144px;
+	height: 100px;
+	margin-bottom: -39px;
+	font-size: 17px;
+	margin-left: -2px;
+}
+.z{
+	font-size: 20px;
+}
+.kong3{
+	width: 10px;
+	height: 20px;
+}
+.zhao{
+	color: palevioletred;
+}
+.zhao2{
+	color:orange;
+}
+.zhao3{
+	color:red;
+}
+.kong4{
+	width:100px;
+	height: 100px;
+}
+.cqq1{
+	width:200px;
+	height: 50px;
+}
+.cqq{
+	margin-top: 40px;
+}
+.cqq2{
+	margin-top: -110px;
+	margin-left: 300px;
+}
+.cqq3{
+	margin-top: -130px;
+	margin-left: 550px;
+}
+.cqq4{
+	margin-top: -190px;
+	margin-left: 750px;
+}
+.cqq5{
+	margin-top: 200px;
+	
+}
+.cqq7{
+	margin-top: 20px;
+	margin-left:2px;
+}
+.cqq8{
+	margin-left:700px;
+	margin-top: -20px;
+}
+.cqq9{
+	margin-left:880px;
+	margin-top: -200px;
+}
+.dl{
+    display: none;
+	position:absolute;
+	top:50px;
+	left:1100px;
+	z-index: 10;
+}
+.dl>dt{
+	width:100px;
+	height:60px;
+	line-height:60px;
+	text-align: center;
+ 	background-color:blue;
+}
+.dl>dt>a{
+	text-decoration: none;
+}
+#to_top{
+	width:30px;
+ 	height:40px; 
+ 	padding:20px;
+  	font:14px/20px arial;
+    text-align:center; 
+ 	background:#06c;
+    position:absolute; 
+ 	cursor:pointer;
+    color:#fff;
+}

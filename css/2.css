@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.meng{
+	width: 1860px;
+	height: 479px;
+}
+input{
+	width: 200px;
+	height: 40px;
+	margin-top:-500px;
+	font-size: 15px;
+}
+ul,li{
+	list-style: none;
+}
+.gao li{
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.gao{
+	margin-left:1000px ;
+	margin-top: -50px;
+}
+.kong{
+	width:50px;
+	height: 50px;
+}
+.kong1{
+	width:50px;
+	height: 25px;
+}
+.yin{
+	width:50px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left: 60px;
+}
+.yin1{
+	width:62px;
+	height: 35px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.kong2{
+	width:50px;
+	height: 15px;
+}
+.meng11{
+	width: 144px;
+	height: 100px;
+	margin-bottom: -39px;
+	font-size: 17px;
+	margin-left: -2px;
+}
+.ma{
+	width: 1423px;
+	height:4200px;
+	margin-left: 55px;
+	position: relative;
+	
+}
+.zhu{
+	width: 120px;
+	height: 30px;
+	background-color: darkseagreen;
+	border-radius: 5px;
+	color: beige;
+}
+.zhu1{
+	border-radius: 5px;
+}
+.zhu2{
+	width: 1420px;
+	height: 330px;
+}
+.zhu3{
+	margin-left: 6px;
+}
+.zhu4{
+	margin-left: 165px;
+}
+.zhu5{
+	margin-left: 13px;
+}
+.zhu6{
+	margin-left: 7px;
+}
+
